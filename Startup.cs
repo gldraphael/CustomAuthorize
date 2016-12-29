@@ -83,6 +83,10 @@ namespace CustomAuthorize
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            // Seed the database
+            SampleData.InitializeDatabaseAsync(app.ApplicationServices, createUsers: true)
+                .Wait();
         }
     }
 }
