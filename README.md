@@ -13,7 +13,7 @@ Blogpost: <https://blog.gldraphael.com/custom-authorize-filter>
 ```bash
 # Clone the project
 git clone https://github.com/gldraphael/CustomAuthorize
-cd CustomAuthorizeAttribute
+cd CustomAuthorize
 # Install dependencies
 dotnet restore
 # Build the project
