@@ -31,5 +31,11 @@ namespace CustomAuthorize.Controllers
         {
             return View();
         }
+
+        [MyAuthorize(RoleConstants.Admin, RoleConstants.Moderator)]
+        public IActionResult Protected()
+        {
+            return Ok("You have access to this shiz");
+        }
     }
 }
