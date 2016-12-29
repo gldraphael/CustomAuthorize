@@ -1,6 +1,7 @@
 # Custom Authorize Attribute
 
-Blogpost: <https://blog.gldraphael.com/custom-authorize-filter>
+Blogpost: <https://blog.gldraphael.com/custom-authorize-filter>   
+The protected resource at `/Home/Protected` can only be accessed by users with the `Admin` or `Moderator` role.
 
 ## Run the application
 
